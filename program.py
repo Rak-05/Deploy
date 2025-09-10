@@ -2,4 +2,8 @@
 # hello.py
 print("Hello from Render")
 while True:
-    pass  # keep it alive
+    from freqtrade_client.ft_client import main
+
+
+if __name__ == "__main__":
+    main()ep it alive
